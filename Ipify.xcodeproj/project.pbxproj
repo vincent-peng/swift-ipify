@@ -10,6 +10,7 @@
 		BF77D06D1E24B94C00EC29AA /* Ipify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF77D0631E24B94C00EC29AA /* Ipify.framework */; };
 		BF77D0721E24B94C00EC29AA /* IpifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77D0711E24B94C00EC29AA /* IpifyTests.swift */; };
 		BF77D0741E24B94C00EC29AA /* Ipify.h in Headers */ = {isa = PBXBuildFile; fileRef = BF77D0661E24B94C00EC29AA /* Ipify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF77D07E1E24BA1600EC29AA /* Ipify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77D07D1E24BA1600EC29AA /* Ipify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		BF77D06C1E24B94C00EC29AA /* IpifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IpifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF77D0711E24B94C00EC29AA /* IpifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpifyTests.swift; sourceTree = "<group>"; };
 		BF77D0731E24B94C00EC29AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF77D07D1E24BA1600EC29AA /* Ipify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ipify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				BF77D0661E24B94C00EC29AA /* Ipify.h */,
 				BF77D0671E24B94C00EC29AA /* Info.plist */,
+				BF77D07D1E24BA1600EC29AA /* Ipify.swift */,
 			);
 			path = Ipify;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					BF77D0621E24B94C00EC29AA = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					BF77D06B1E24B94C00EC29AA = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF77D07E1E24BA1600EC29AA /* Ipify.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +325,7 @@
 		BF77D0781E24B94C00EC29AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.vincentpeng.Ipify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +345,7 @@
 		BF77D0791E24B94C00EC29AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +364,7 @@
 		BF77D07B1E24B94C00EC29AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = IpifyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.vincentpeng.IpifyTests;
@@ -367,6 +376,7 @@
 		BF77D07C1E24B94C00EC29AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = IpifyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.vincentpeng.IpifyTests;
