@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Ipify"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "Swift library for checking your IP address from ipify.org"
 
   s.description  = "Retrieve user's public IP address via ipify's API service."
