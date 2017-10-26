@@ -11,8 +11,16 @@ import Foundation
 public struct Ipify {
 	
 	public typealias JSONDictionary = [String: Any]
+	
+	/// A closure containing a `Result` enum.
 	public typealias CompletionHandler = (Result) -> Void
 	
+	
+	/// Used to represent whether request was successful or encountered an error.
+	///
+	/// - success: The request was successful resulting. The associated value is the IP address string representation.
+	/// - failure: The request encountered an error resulting in a failure. The associated values are the original data
+	///            provided by the server as well as the error that caused the failure.
 	public enum Result {
 		case success(String)
 		case failure(CustomError)
@@ -35,8 +43,14 @@ public struct Ipify {
 		}
 	}
 	
-	internal static var serviceURL = "https://api.ipify.org?format=json"	// var only for unit testabilty
 	
+	/// Ipify service URL. Decleared as variable only for unit testabilty.
+	internal static var serviceURL = "https://api.ipify.org?format=json"
+	
+	
+	/// Request to get the IP public address from ipify.org.
+	///
+	/// - Parameter completion: The code to be executed once the request has finished.
 	public static func getPublicIPAddress(completion: @escaping CompletionHandler) {
 		let url = URL(string: Ipify.serviceURL)!
 		
@@ -44,6 +58,7 @@ public struct Ipify {
 			handleIpifyResponse(with: data, error: error, completion: completion)
 		}.resume()
 	}
+	
 	
 	internal static func handleIpifyResponse(with data: Data?, error: Error?, completion: @escaping CompletionHandler) {
 		guard error == nil else {
@@ -63,4 +78,5 @@ public struct Ipify {
 			completion(Result.failure(CustomError.invalidJson))
 		}
 	}
+	
 }
