@@ -16,7 +16,7 @@ import Ipify
 Ipify.getPublicIPAddress { result in
 	switch result {
 	case .success(let ip):
-		print(ip) //=> '210.11.178.112'
+		print(ip) // "210.11.178.112"
 		
 	case .failure(let error):
 		print(error.localizedDescription)
@@ -25,8 +25,8 @@ Ipify.getPublicIPAddress { result in
 ```
 
 ## Requirements
-* Swift 3
-* iOS 8+
+* Swift 4
+* iOS 10+
 
 ## Installation
 
