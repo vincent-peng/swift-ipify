@@ -45,7 +45,7 @@ public struct Ipify {
 	
 	
 	/// Ipify service URL. Decleared as variable only for unit testabilty.
-	internal static var serviceURL = "https://api.ipify.org?format=json"
+	internal(set) static var serviceURL = "https://api.ipify.org?format=json"
 	
 	
 	/// Request to get the IP public address from ipify.org.
