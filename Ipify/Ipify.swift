@@ -26,6 +26,12 @@ public struct Ipify {
 		case failure(CustomError)
 	}
 	
+	
+	/// Custom error type which encompasses a few different types of errors, each with their own associated reasons.
+	///
+	/// - noData: Returned when no data received from server response.
+	/// - invalidJson: Returned when JSON decoding process fails.
+	/// - otherError: Returned default `Error`.
 	public enum CustomError: LocalizedError {
 		case noData
 		case invalidJson
