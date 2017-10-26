@@ -1,4 +1,2 @@
 language: objective-c
 osx_image: xcode9
-xcode_project: Ipify.xcodeproj
-xcode_scheme: Ipify
