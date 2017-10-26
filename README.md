@@ -1,6 +1,6 @@
 # Ipify
 
-[![CI Status](http://img.shields.io/travis/Vincent Peng/Ipify.svg?style=flat)](https://travis-ci.org/Vincent Peng/Ipify)
+[![CI Status](https://travis-ci.org/vincent-peng/swift-ipify.svg?branch=master)](https://travis-ci.org/vincent-peng/swift-ipify)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/Ipify.svg?style=flat)](http://cocoapods.org/pods/Ipify)
 [![License](https://img.shields.io/cocoapods/l/Ipify.svg?style=flat)](http://cocoapods.org/pods/Ipify)
