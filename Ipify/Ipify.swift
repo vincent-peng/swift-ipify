@@ -54,7 +54,7 @@ public struct Ipify {
 	internal(set) static var serviceURL = "https://api.ipify.org?format=json"
 	
 	
-	/// Request to get the IP public address from ipify.org.
+	/// Retrieve user's public IP address via ipify's API service.
 	///
 	/// - Parameter completion: The code to be executed once the request has finished.
 	public static func getPublicIPAddress(completion: @escaping CompletionHandler) {
