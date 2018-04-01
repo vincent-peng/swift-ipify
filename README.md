@@ -26,7 +26,7 @@ Ipify.getPublicIPAddress { result in
 
 ## Requirements
 * Swift 4
-* iOS 10+
+* iOS 10+ / macOS 10.10+
 
 ## Installation
 

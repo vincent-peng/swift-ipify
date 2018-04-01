@@ -6,7 +6,7 @@
 //  Copyright © 2017 Vincent Peng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Ipify.
 FOUNDATION_EXPORT double IpifyVersionNumber;
