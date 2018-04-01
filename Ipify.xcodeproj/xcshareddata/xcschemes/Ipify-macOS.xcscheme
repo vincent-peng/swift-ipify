@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF77D0621E24B94C00EC29AA"
+               BlueprintIdentifier = "BFDA3B072070B30400177687"
                BuildableName = "Ipify.framework"
-               BlueprintName = "Ipify"
+               BlueprintName = "Ipify-macOS"
                ReferencedContainer = "container:Ipify.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,26 +29,7 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF77D06B1E24B94C00EC29AA"
-               BuildableName = "IpifyTests.xctest"
-               BlueprintName = "IpifyTests"
-               ReferencedContainer = "container:Ipify.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF77D0621E24B94C00EC29AA"
-            BuildableName = "Ipify.framework"
-            BlueprintName = "Ipify"
-            ReferencedContainer = "container:Ipify.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -66,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF77D0621E24B94C00EC29AA"
+            BlueprintIdentifier = "BFDA3B072070B30400177687"
             BuildableName = "Ipify.framework"
-            BlueprintName = "Ipify"
+            BlueprintName = "Ipify-macOS"
             ReferencedContainer = "container:Ipify.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF77D0621E24B94C00EC29AA"
+            BlueprintIdentifier = "BFDA3B072070B30400177687"
             BuildableName = "Ipify.framework"
-            BlueprintName = "Ipify"
+            BlueprintName = "Ipify-macOS"
             ReferencedContainer = "container:Ipify.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
