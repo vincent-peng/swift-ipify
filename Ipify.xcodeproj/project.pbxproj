@@ -12,6 +12,7 @@
 		BF77D0741E24B94C00EC29AA /* Ipify.h in Headers */ = {isa = PBXBuildFile; fileRef = BF77D0661E24B94C00EC29AA /* Ipify.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF77D07E1E24BA1600EC29AA /* Ipify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77D07D1E24BA1600EC29AA /* Ipify.swift */; };
 		BFDA3B102070B4CF00177687 /* Ipify.h in Headers */ = {isa = PBXBuildFile; fileRef = BF77D0661E24B94C00EC29AA /* Ipify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFDA3B162070BABD00177687 /* Ipify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77D07D1E24BA1600EC29AA /* Ipify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -265,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDA3B162070BABD00177687 /* Ipify.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
