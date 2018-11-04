@@ -30,7 +30,7 @@ Ipify.getPublicIPAddress { result in
 
 ## Installation
 
-###CocoaPods
+### CocoaPods
 Ipify is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -38,7 +38,7 @@ it, simply add the following line to your Podfile:
 pod "Ipify"
 ```
 
-###Carthage
+### Carthage
 
 ```:Cartfile
 github "vincent-peng/swift-ipify"
